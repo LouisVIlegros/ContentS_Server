@@ -1,10 +1,10 @@
 
 import unittest
+from flask.ext.testing import TestCase
 
-from base import BaseTestCase
 
 
-class FlaskTestCase(BaseTestCase):
+class FlaskTestCase(TestCase):
 
     # Ensure that search by id works correctly 
     def test_Get_By_Id(self):
