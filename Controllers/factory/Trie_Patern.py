@@ -1,3 +1,13 @@
+''' 
+
+ATTENTION : For this part of the code I strongly based my code on this gist : https://gist.github.com/tizz98/fbad67ac008b21e53c292543a32dfbac
+
+In my opinion it was the best implementation of the TRIE algorithm that i found.
+I also could write one algorithm by myself but due to the short time allowed to acchieve this exercise i prefered to use a safe and tested implementation 
+
+
+'''
+
 class TrieNode:
     __slots__ = ('value', 'end_of_word', 'children', 'weight', 'completeName', 'photo', 'id')
 
